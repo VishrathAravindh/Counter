@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body><div><h1 class="Red">How much can you Count?</h1
+<h1 id="num">0</h1>
+<button onclick="increase()">Increase</button>
+<button onclick="decrease()">Decrease</button>
+<button onclick="clearv()">Reset</button>
+
+<style>
+h1:hover{
+  color:white;
+}
+body{
+  background:pink
+}
+div{
+  background:linear-gradient(red,pink,purple);
+}
+h1{
+  display:flex;
+  justify-content:center
+}
+button{
+margin:20px}
+button:hover{
+  background:black;color:white
+}
+h6:hover{
+  color: purple;
+}
+</style>
+<script>
+
+  function  increase(){
+    var number=document.getElementById("num");
+   num.textContent= Number(number.textContent)+1;
+  }
+  function  decrease(){
+    var number=document.getElementById("num");
+   num.textContent= Number(number.textContent)-1;}
+ function  clearv(){window.alert ("Your Score Is:"+num.textContent)
+    var number=document.getElementById("num");
+   num.textContent=0;}
+ 
+ 
+
+ 
+</script>
+</div>
+<Hr color="black">
+  <h6>reset to see the score</h6>
+  
+</body>
+
+</html>
